@@ -13,7 +13,7 @@ function App() {
       {/* <div className='h-[200vh]'></div> */}
       <MainSection/>
 
-      {/* <Features/> */}
+      <Features/>
 
     </>
   )

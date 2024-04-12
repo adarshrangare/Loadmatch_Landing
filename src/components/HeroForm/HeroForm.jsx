@@ -11,8 +11,8 @@ const HeroForm = () => {
   const [value, setValue] = useState("bookTruck");
 
   return (
-    <div className="formSection lg:-translate-y-16 shadow-lg rounded-lg lg:basis-1/2">
-      <div className="formContainer max-w-md max-sm:max-w-sm max-sm:w-[24rem] w-[28rem] bg-white rounded-lg ">
+    <div className="formSection  lg:-translate-y-16 shadow-lg rounded-lg lg:basis-1/2 ">
+      <div className="formContainer max-w-md max-sm:max-w-sm max-sm:w-[24rem] w-[28rem] bg-white rounded-lg border-l-4 border-r-4 border-blue-500 border ">
         <TabContext value={value} >
           <Box sx={{ borderBottom: 1, borderColor: "divider", width: "100%" }}>
             <TabList
